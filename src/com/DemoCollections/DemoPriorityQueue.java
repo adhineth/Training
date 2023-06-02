@@ -26,7 +26,7 @@ public class DemoPriorityQueue {
         priorityQueue.add(243);
         priorityQueue.add(432);
         priorityQueue.add(245);
-        priorityQueue.add(463);
+        //priorityQueue.add(463);
         priorityQueue.add(24);
         priorityQueue.add(43);
         priorityQueue.add(3);

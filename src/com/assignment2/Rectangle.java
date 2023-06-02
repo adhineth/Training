@@ -2,34 +2,36 @@ package com.assignment2;
 
 
 public class Rectangle extends Shape{
+    private int length = 4;
+    private int width = 5;
     public int getLength() {
         return length;
     }
 
-    private int length = 4;
-
     public int getWidth() {
+
         return width;
+    }
+    public void setLength(int length){
+
+        this.length = length;
     }
 
     public void setWidth(int width) {
+
         this.width = width;
     }
 
-    private int width = 5;
-    public void setLength(int length){
-        this.length = length;
-    }
     public int getArea(){
+
         return length * width;
     }
 
     public void tryArea(){
 
         Rectangle rectangle1 = new Rectangle();
-        rectangle1.length = 20;
+        rectangle1.length = 80;
     }
-
     public static void main(String[] args) {
 
         Rectangle rectangle = new Rectangle();
